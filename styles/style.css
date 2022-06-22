@@ -1,0 +1,257 @@
+html, body {
+  font-family: "montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f6f8;
+  min-width: 350px;
+}
+
+em, p, a, h1, h2, h3, h4 {
+  margin: 0;
+  font-style: unset;
+  text-decoration: none;
+  color: unset;
+}
+
+html, body * {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f6f8;
+  min-width: 350px;
+}
+
+em, p, a, h1, h2, h3, h4 {
+  margin: 0;
+  font-style: unset;
+  text-decoration: none;
+  color: unset;
+}
+
+html, body * {
+  box-sizing: border-box;
+}
+
+.default-shelf {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.default-shelf .fac-product {
+  width: 247px;
+  height: 444px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  margin: 20px;
+}
+.default-shelf .fac-product .fac-product__content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+.default-shelf .fac-product .fac-product__content .fac-product__content__img-container {
+  width: 100%;
+}
+.default-shelf .fac-product .fac-product__content .fac-product__content__img-container .fac-product__content__img-container__flag-area {
+  position: absolute;
+  z-index: 1;
+}
+.default-shelf .fac-product .fac-product__content .fac-product__content__img-container .fac-product__content__img-container__flag-area .flag {
+  background-color: #E41021;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 2px 10px;
+  color: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-top: 10px;
+}
+.default-shelf .fac-product .fac-product__content .fac-product__content__img-container .fac-product__content_img-container__img-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.default-shelf .fac-product .fac-product__content .fac-product__content__img-container .fac-product__content_img-container__img-area img {
+  width: 207px;
+  height: 207px;
+  max-width: 100%;
+  max-height: 100%;
+}
+.default-shelf .fac-product .fac-product__content .fac-product__content__info {
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+  text-align: center;
+  padding: 0 10px 20px;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.default-shelf .fac-product .fac-product__content .fac-product__content__info .fac-product__content__info__title h4 a {
+  color: #E41021;
+  max-height: 64px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.default-shelf .fac-product .fac-product__content .fac-product__content__info .fac-product__content__info__price {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 2px;
+}
+.default-shelf .fac-product .fac-product__content .fac-product__content__info .fac-product__content__info__price .fac-product__content__info__price__from {
+  display: flex;
+  color: #3b0409;
+  font-weight: 500;
+  gap: 5px;
+  font-size: 0.9rem;
+}
+.default-shelf .fac-product .fac-product__content .fac-product__content__info .fac-product__content__info__price .fac-product__content__info__price__from .fac-product__content__info__price__from__price {
+  color: #E41021;
+}
+.default-shelf .fac-product .fac-product__content .fac-product__content__info .fac-product__content__info__price .fac-product__content__info__price__sale-price {
+  color: #058f49;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.default-shelf .fac-product .fac-product__content .fac-product__content__info .fac-product__content__info__price .fac-product__content__info__price__installment {
+  color: #3b0409;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.default-shelf .fac-product .fac-product__content .fac-product__content__info__actions .fac-product__content__info__actions__inner a {
+  display: inline-block;
+  width: 100%;
+  background-color: #058f49;
+  color: #FFFFFF;
+  padding: 3px 0;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  font-weight: 600;
+}
+
+html, body {
+  font-family: "montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f6f8;
+  min-width: 350px;
+}
+
+em, p, a, h1, h2, h3, h4 {
+  margin: 0;
+  font-style: unset;
+  text-decoration: none;
+  color: unset;
+}
+
+html, body * {
+  box-sizing: border-box;
+}
+
+.fac-shell {
+  width: 100%;
+  padding: 0 10px;
+  height: 75vh;
+}
+
+html, body {
+  font-family: "montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f6f8;
+  min-width: 350px;
+}
+
+em, p, a, h1, h2, h3, h4 {
+  margin: 0;
+  font-style: unset;
+  text-decoration: none;
+  color: unset;
+}
+
+html, body * {
+  box-sizing: border-box;
+}
+
+footer {
+  width: 100%;
+  background-color: #E41021;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
+footer p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+footer .social-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  background-color: #FFFFFF;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+footer .social-container .social-info {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 0;
+}
+footer .tech-container {
+  display: flex;
+  gap: 10px;
+}
+footer .tech-container p {
+  font-size: 0.8333333333rem;
+}
+
+html, body {
+  font-family: "montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f6f8;
+  min-width: 350px;
+}
+
+em, p, a, h1, h2, h3, h4 {
+  margin: 0;
+  font-style: unset;
+  text-decoration: none;
+  color: unset;
+}
+
+html, body * {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #E41021;
+  padding: 10px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 50px;
+}
+header h1 {
+  font-size: 1.5rem;
+}
+header a {
+  font-weight: 600;
+}/*# sourceMappingURL=style.css.map */

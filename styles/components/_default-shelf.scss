@@ -1,0 +1,113 @@
+@import "../abstract/base";
+@import "../abstract/variables";
+
+.default-shelf {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  .fac-product {
+    width: 247px;
+    height: 444px;
+    background-color: $secundary-color;
+    border-radius: 10px;
+    margin: 20px;
+    .fac-product__content {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      .fac-product__content__img-container {
+        width: 100%;
+        .fac-product__content__img-container__flag-area {
+          position: absolute;
+          z-index: 1;
+          .flag {
+            background-color: $primary-color;
+            width: fit-content;
+            padding: 2px 10px;
+            color: white;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            margin-top: 10px;
+          }
+        }
+        .fac-product__content_img-container__img-area {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 0;
+          img {
+            width: 207px;
+            height: 207px;
+            max-width: 100%;
+            max-height: 100%;
+          }
+        }
+      }
+      .fac-product__content__info {
+        display: flex;
+        flex-flow: column;
+        gap: 20px;
+        text-align: center;
+        padding: 0 10px 20px;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        .fac-product__content__info__title {
+          h4 {
+            a {
+              color: $primary-color;
+              max-height: 64px;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              display: -webkit-box;
+              -webkit-box-orient: vertical;
+              font-weight: 500;
+              font-size: $product-text-font-size;
+            }
+          }
+        }
+        .fac-product__content__info__price {
+          display: flex;
+          flex-flow: column;
+          align-items: center;
+          gap: 2px;
+          .fac-product__content__info__price__from {
+            display: flex;
+            color: $extra-color-one;
+            font-weight: 500;
+            gap: 5px;
+            font-size: $product-text-font-size * 0.9;
+            .fac-product__content__info__price__from__price {
+              color: $primary-color;
+            }
+          }
+          .fac-product__content__info__price__sale-price {
+            color: #058f49;
+            font-weight: 600;
+            font-size: $product-text-font-size * 1.2;
+          }
+          .fac-product__content__info__price__installment {
+            color: $extra-color-one;
+            font-size: $product-text-font-size * 0.8;
+            font-weight: 500;
+          }
+        }
+      }
+      .fac-product__content__info__actions {
+        .fac-product__content__info__actions__inner {
+          a {
+            display: inline-block;
+            width: 100%;
+            background-color: $tertiary-color;
+            color: $secundary-color;
+            padding: 3px 0;
+            border-radius: 5px;
+            border: 2px solid transparent;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}

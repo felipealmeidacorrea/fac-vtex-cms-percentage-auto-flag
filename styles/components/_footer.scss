@@ -1,0 +1,40 @@
+@import "../abstract/base";
+@import "../abstract/variables";
+
+footer {
+  width: 100%;
+  background-color: $primary-color;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  p {
+    font-size: $main-text-font-size * 1.2;
+    font-weight: 600;
+    color: $secundary-color;
+  }
+  .social-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    background-color: $secundary-color;
+    padding: 5px 10px;
+    border-radius: 10px;
+    .social-info {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      margin: 0;
+    }
+  }
+  .tech-container {
+    display: flex;
+    gap: 10px;
+    p {
+      font-size: $main-text-font-size / 1.2;
+    }
+  }
+}

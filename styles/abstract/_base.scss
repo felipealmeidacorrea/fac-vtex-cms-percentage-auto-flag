@@ -1,0 +1,19 @@
+@import './variables';
+html, body {
+    font-family: $primary-font;
+    margin: 0;
+    padding: 0;
+    background-color: $bg-color-one;
+    min-width: 350px;
+}
+
+em, p, a, h1, h2, h3, h4 {
+    margin: 0;
+    font-style: unset;
+    text-decoration: none;
+    color: unset;
+}
+
+html, body * {
+    box-sizing: border-box;
+}
